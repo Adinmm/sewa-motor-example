@@ -10,18 +10,19 @@ export const metadata: Metadata = {
 export default function MotorPage() {
   return (
     <div>
-      <section className="border-b border-border bg-surface">
+      <section className="border-b border-amber-100 bg-amber-50/40">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Katalog</p>
-          <h1 className="mt-3 max-w-3xl text-5xl font-semibold tracking-tight md:text-6xl">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange-600">Katalog</p>
+          <h1 className="mt-3 max-w-3xl text-5xl font-bold tracking-tight text-sky-950 md:text-6xl">
             Pilih motor untuk petualangan Bali Anda
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-sky-900">
             Semua motor diservis rutin, lengkap dengan STNK original, 2 helm SNI,
-            dan jas hujan. Harga sudah termasuk pajak.
+            dan jas hujan bersih. Harga transparan tanpa biaya tersembunyi.
           </p>
         </div>
       </section>
+      
       <MotorList />
     </div>
   );

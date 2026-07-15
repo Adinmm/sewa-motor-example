@@ -9,12 +9,12 @@ import { cn } from "@/lib/utils";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Bali Moto Rent — Sewa Motor Mudah & Terpercaya di Bali",
+  title: "Rental Motor Anda Moto Rent — Sewa Motor Mudah & Terpercaya di Rental Motor Anda",
   description:
-    "Sewa motor matic, sport, dan trail di Bali. Armada terawat, harga transparan, antar jemput gratis area Kuta, Seminyak & Canggu.",
+    "Sewa motor matic, sport, dan trail di Rental Motor Anda. Armada terawat, harga transparan, antar jemput gratis area Kuta, Seminyak & Canggu.",
   openGraph: {
-    title: "Bali Moto Rent — Sewa Motor di Bali",
-    description: "Sewa motor mudah, cepat, dan terpercaya di Bali.",
+    title: "Rental Motor Anda Moto Rent — Sewa Motor di Rental Motor Anda",
+    description: "Sewa motor mudah, cepat, dan terpercaya di Rental Motor Anda.",
     type: "website",
   },
 };

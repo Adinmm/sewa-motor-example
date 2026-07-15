@@ -1,6 +1,6 @@
 export const SITE = {
-  name: "Bali Moto Rent",
-  tagline: "Sewa motor mudah, cepat, dan terpercaya di Bali",
+  name: "Rental Motor Anda",
+  tagline: "Sewa motor mudah, cepat, dan terpercaya di Rental Motor Anda",
   whatsapp: "6281234567890",
   whatsappDisplay: "+62 812-3456-7890",
   email: "halo@balimotorent.com",
